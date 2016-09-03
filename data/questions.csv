@@ -1,5 +1,5 @@
 Short Name,Feedback Type,Question Text
-Q1,voice_file,Rate how safe do you feel walking along Dixie Highway?
+Q1,numerical_response,"Do you feel safe walking along Dixie Highway? Press 1 for yes, press 2 for no."
 Q2,voice_file,"What would you change to make Dixie Highway safer for pedestrians, bus riders, and drivers?"
 Q3,voice_file,"If you regularly walk across Dixie Highway, where do you cross?"
 Q4,voice_file,"Cross you usually cross at designated crosswalks, or do you use other locations?"
