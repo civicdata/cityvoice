@@ -1,6 +1,6 @@
 <div class="city-voice-answer">
   <h6>
-    <%= answer.location.name %>
+    <%= link_to(answer.location.name, location_path(answer.location.id)) %>
     <small><%= answer.created_at.to_s(:year_month_date) %></small>
   </h6>
   <audio controls>

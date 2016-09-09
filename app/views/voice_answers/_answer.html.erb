@@ -1,7 +1,7 @@
 <tr>
   <td><%= link_to(answer.location.name, location_path(answer.location.id)) %></td>
   <td><%= answer.created_at.to_formatted_s(:year_month_date) %></td>
-  <td><%= answer.call_id %> <td>
+  <td><%= answer.call_id %> </td>
   <td>
     <% if answer.call.consented_to_callback %>
       <%= answer.obscured_phone_number %>
