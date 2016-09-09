@@ -4,5 +4,5 @@
     <li>Timeline and expected results</li>
     <li>Our process and need for public feedback</li>
 </ul>
-<p><strong><a href="https://louisvilleky.gov/government/metro-council-district-12/dixie-highway-improvement-project">Click here to read the city's full overview</a></strong>.</p><p></p>
+<p><strong><a href="https://louisvilleky.gov/government/new-dixie-highway">Click here to read the city's full overview</a></strong>.</p><p></p>
 

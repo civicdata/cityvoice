@@ -13,7 +13,7 @@ describe LandingController do
       its(:response) { should be_success }
     end
 
-    it 'assigns the 3 most recent messages' do
+    it 'assigns the 5 most recent messages' do
       4.times { create :answer, :voice_file }
       make_request
       expect(assigns(:most_recent_messages)).to have(3).answers
