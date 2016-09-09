@@ -1,11 +1,13 @@
 <tr>
   <td><%= link_to(answer.location.name, location_path(answer.location.id)) %></td>
   <td><%= answer.created_at.to_formatted_s(:year_month_date) %></td>
+  <td><%= answer.call_id %> <td>
   <td>
     <% if answer.call.consented_to_callback %>
       <%= answer.obscured_phone_number %>
     <% end %>
   </td>
+  <td>#<%= (answer.question_id - 12) %></td>
   <td>
     <audio controls>
       <source src="<%= answer.voice_file_url %>.mp3" type="audio/mpeg">
