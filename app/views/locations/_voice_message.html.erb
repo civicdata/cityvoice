@@ -1,7 +1,7 @@
 <div class="city-voice-message">
   <h6>
-    <small>question:</small> <%= answer.question_id %> (<%= answer.id %>)
-    <small>caller:</small> <%= answer.call_id %> (<%= answer.id %> - <% answer.call.caller_id %>)
+    <small>question:</small> #<%= (answer.question_id - 11) %> 
+    <small>caller:</small> <%= answer.call_id %> 
     <small>date:</small> <%= answer.created_at.to_s(:year_month_date) %>
     <% if answer.call.consented_to_callback %>
       <small>from:</small> <%= answer.obscured_phone_number %> 
